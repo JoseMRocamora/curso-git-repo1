@@ -2,9 +2,9 @@
 body {
     width: 70%;
     margin: 0 auto;
-}
-
-nav {
+  }
+  
+  nav {
     height: 100px;
     display: flex;
   }
@@ -26,3 +26,15 @@ nav {
     flex: 1;
   }
   
+  main {
+    display: flex;
+  }
+  
+  article {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+  }
